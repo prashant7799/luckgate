@@ -1,0 +1,27 @@
+# Virtual environments
+.venv/
+.venv
+
+# Python build and cache files
+__pycache__/
+*.py[cod]
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.hypothesis/
+.ruff_cache/
+
+# Secrets and local settings: never commit these
+.env*
+*.key
+*.pem
+
+# Local data: never commit real data
+data/
+
+# Files written by the CLI demo
+demo_scores.csv
+
+# macOS folder metadata
+.DS_Store

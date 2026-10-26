@@ -1,0 +1,82 @@
+cff-version: 1.2.0
+message: "If you use luckgate, please cite the papers below and, optionally, this software."
+type: software
+title: "luckgate: did the winner of a search beat luck?"
+version: 0.1.0
+date-released: 2026-10-23
+license: MIT
+repository-code: "https://github.com/prashant7799/luckgate"
+keywords:
+  - deflated Sharpe ratio
+  - probabilistic Sharpe ratio
+  - probability of backtest overfitting
+  - selection bias
+  - multiple testing
+authors:
+  - family-names: Lohar
+    given-names: Prashant
+references:
+  - type: article
+    title: "The Sharpe Ratio Efficient Frontier"
+    authors:
+      - family-names: Bailey
+        given-names: David H.
+      - family-names: "López de Prado"
+        given-names: Marcos
+    journal: "Journal of Risk"
+    volume: 15
+    issue: 2
+    start: 3
+    end: 44
+    year: 2012
+    doi: "10.21314/JOR.2012.255"
+  - type: article
+    title: "The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest Overfitting, and Non-Normality"
+    authors:
+      - family-names: Bailey
+        given-names: David H.
+      - family-names: "López de Prado"
+        given-names: Marcos
+    journal: "Journal of Portfolio Management"
+    volume: 40
+    issue: 5
+    start: 94
+    end: 107
+    year: 2014
+    doi: "10.3905/jpm.2014.40.5.094"
+  - type: article
+    title: "Pseudo-Mathematics and Financial Charlatanism: The Effects of Backtest Overfitting on Out-of-Sample Performance"
+    authors:
+      - family-names: Bailey
+        given-names: David H.
+      - family-names: Borwein
+        given-names: Jonathan M.
+      - family-names: "López de Prado"
+        given-names: Marcos
+      - family-names: Zhu
+        given-names: Qiji Jim
+    journal: "Notices of the American Mathematical Society"
+    volume: 61
+    issue: 5
+    start: 458
+    end: 471
+    year: 2014
+    doi: "10.1090/noti1105"
+  - type: article
+    title: "The Probability of Backtest Overfitting"
+    authors:
+      - family-names: Bailey
+        given-names: David H.
+      - family-names: Borwein
+        given-names: Jonathan M.
+      - family-names: "López de Prado"
+        given-names: Marcos
+      - family-names: Zhu
+        given-names: Qiji Jim
+    journal: "Journal of Computational Finance"
+    volume: 20
+    issue: 4
+    start: 39
+    end: 69
+    year: 2017
+    doi: "10.21314/JCF.2016.322"
